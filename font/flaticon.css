@@ -1,0 +1,98 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?3bf03c1c73def17784056eb1cfea48cc") format("truetype"),
+url("./flaticon.woff?3bf03c1c73def17784056eb1cfea48cc") format("woff"),
+url("./flaticon.woff2?3bf03c1c73def17784056eb1cfea48cc") format("woff2"),
+url("./flaticon.eot?3bf03c1c73def17784056eb1cfea48cc#iefix") format("embedded-opentype"),
+url("./flaticon.svg?3bf03c1c73def17784056eb1cfea48cc#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-right-chevron:before {
+    content: "\f101";
+}
+.flaticon-smile:before {
+    content: "\f102";
+}
+.flaticon-cloud:before {
+    content: "\f103";
+}
+.flaticon-tools:before {
+    content: "\f104";
+}
+.flaticon-investigation:before {
+    content: "\f105";
+}
+.flaticon-folder:before {
+    content: "\f106";
+}
+.flaticon-airplane:before {
+    content: "\f107";
+}
+.flaticon-connect:before {
+    content: "\f108";
+}
+.flaticon-messenger:before {
+    content: "\f109";
+}
+.flaticon-armchair:before {
+    content: "\f10a";
+}
+.flaticon-left-chevron:before {
+    content: "\f10b";
+}
+.flaticon-landscape:before {
+    content: "\f10c";
+}
+.flaticon-music:before {
+    content: "\f10d";
+}
+.flaticon-color-palette:before {
+    content: "\f10e";
+}
+.flaticon-link:before {
+    content: "\f10f";
+}
+.flaticon-sound:before {
+    content: "\f110";
+}
+.flaticon-instagram:before {
+    content: "\f111";
+}
+.flaticon-linkedin:before {
+    content: "\f112";
+}
+.flaticon-facebook:before {
+    content: "\f113";
+}
+.flaticon-dribbble-logo:before {
+    content: "\f114";
+}
+.flaticon-youtube:before {
+    content: "\f115";
+}
+.flaticon-twitter:before {
+    content: "\f116";
+}
+.flaticon-mail:before {
+    content: "\f117";
+}
+.flaticon-mobile-phone:before {
+    content: "\f118";
+}
+.flaticon-pin:before {
+    content: "\f119";
+}
+.flaticon-menu:before {
+    content: "\f11a";
+}

@@ -1,0 +1,694 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+/*==================Navbar part goes here==========================*/
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    
+}
+.bg.navbar-expand-lg{
+    background-color: #ffffff;
+    transition: all linear .3s;
+    border-bottom: 1px solid #e7e7e7;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 22px 15px;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    transition: all linear .3s;
+}
+.bg.navbar-expand-lg .navbar-nav .nav-link{
+    color: #000;
+    padding: 15px 15px;
+}
+.bg.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: #bfbfbf;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: rgba(248, 248, 248, 0.356);
+}
+.navbar-expand-lg {
+	background: rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(248, 248, 248, 0.356);
+}
+
+/*==================Navbar part end here==========================*/
+/*==================banner part goes here==========================*/
+#banner{
+    background: url(../images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    background-attachment: fixed;
+}
+#banner::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0,.50);
+}
+.banner{
+    position: relative;
+    z-index: 999;
+}
+.banner-text{
+    padding-top: 207px;
+}
+.banner-text h4{
+    font-size: 20px;
+    font-family: 'Goudy Bookletter 1911', serif;
+    color: #aaa;
+    font-style: italic;
+    padding-bottom: 6px;
+}
+.banner-text h2{
+    font-size: 42px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+}
+.banner-btn{
+    margin-top: 50px;
+}
+.banner-btn a{
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 14px 25px;
+    background: #00a0dc;
+    border-radius: 25px;
+}
+/*==================banner part end here==========================*/
+/*==================download part goes here==========================*/
+#download{
+    padding-top: 100px;
+}
+.head h2{
+    font-size: 38px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #000;
+    position: relative;
+}
+.head h2::after{
+    position: absolute;
+    content: '';
+    width: 180px;
+    height: 2px;
+    bottom: -16px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #eeeeee;
+}
+.head p{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #111;
+    padding-top: 22px; 
+}
+.download-img{
+    padding-top: 72px;
+}
+/* #download-img{
+    background: url(../images/service.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 325px;
+} */
+.service-main{
+    padding-top: 80px;
+    padding-bottom: 70px;
+}
+.service-item i{
+    font-size: 60px;
+    color: #00a0dc;
+}
+.service-item h4{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: inherit;
+    text-transform: capitalize;
+    padding-bottom: 6px;
+}
+.service-item h5{
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #aaa;
+    text-transform: uppercase;
+    padding-bottom: 6px;
+}
+.service-item p{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #111;
+}
+/*==================download part end here==========================*/
+/*==================intro part goes here==========================*/
+#intro{
+    background: url(../images/clients-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    position: relative;
+    background-attachment: fixed;
+    width: 100%;
+}
+#intro::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0,.50);
+}
+.intro{
+    position: relative;
+    z-index: 999;
+}
+.intro-item{
+    align-items: center;
+    height: 300px;
+}
+/*==================intro part end here==========================*/
+/*==================look part goes here==========================*/
+#look{
+    padding-top: 90px;
+    padding-bottom: 70px;
+}
+.fea1{
+    padding-top: 72px;
+    padding-bottom: 85px;
+}
+
+.look-icon i{
+    font-size: 36px;
+    color: #00a0dc;
+}
+.look-text h4{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: inherit;
+    padding-bottom: 4px;
+}
+.look-text  p{
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #111;
+    line-height: 24px;
+}
+/*==================look part end here==========================*/
+/*==================intro1 part goes here==========================*/
+#intro1{
+    background: url(../images/works-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    background-attachment: fixed;
+    position: relative;
+}
+#intro1::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0,.50);
+}
+.intro1{
+    position: relative;
+    z-index: 999;
+}
+.intro1-text-main{
+    align-items: center;
+    height: 300px;
+}
+.intro1-text h4{
+    font-size: 20px;
+    font-family: 'Goudy Bookletter 1911', serif;
+    color: #aaa;
+    font-style: italic;
+    padding-bottom: 6px;
+}
+.intro1-text h2{
+    font-size: 42px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+}
+/*==================intro1 part end here==========================*/
+/*==================work part goes here==========================*/
+#work{
+    padding-top: 60px;
+
+}
+.work{
+    padding-top: 100px;
+}
+.work-text h3{
+    font-size: 38px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: inherit;
+    padding-bottom: 9px;
+    padding-right: 154px;
+}
+.work-text span{
+    font-size: 20px;
+    font-family: 'Goudy Bookletter 1911', serif;
+    color: #aaa;
+    font-style: italic;
+    padding-bottom: 6px;
+}
+.work-text  p{
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #111;
+    line-height: 24px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.work-text  a{
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #00a0dc;
+    text-transform: uppercase;
+    padding: 14px 25px;
+    border: 1px solid #00a0dc;
+    border-radius: 25px;
+    transition: all linear .3s;
+}
+.work-text  a:hover{
+    background-color: #00a0dc;
+    color: #fff;
+}
+.work-img{
+    position: relative;
+}
+.left{
+    position: absolute;
+    top: 41%;
+    left: 27px;
+    transform: translate(-50%,50%);
+    z-index: 999;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, .3);
+    text-align: center;
+    font-size: 20px;
+    color: #111;
+}
+.right{
+    position: absolute;
+    top: 41%;
+    right: -27px;
+    transform: translate(-50%,50%);
+    z-index: 999;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, .3);
+    text-align: center;
+    font-size: 20px;
+    color: #111;
+}
+.work-border{
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+/*==================work part end here==========================*/
+/*==================gallrey intro=========================*/
+#intro2{
+    background: url(../images/gallery-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    background-attachment: fixed;
+    position: relative;
+}
+#intro2::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0,.50);
+}
+.intro1{
+    position: relative;
+    z-index: 999;
+}
+.intro1-text-main{
+    align-items: center;
+    height: 300px;
+}
+.intro1-text h4{
+    font-size: 20px;
+    font-family: 'Goudy Bookletter 1911', serif;
+    color: #aaa;
+    font-style: italic;
+    padding-bottom: 6px;
+}
+.intro1-text h2{
+    font-size: 42px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+}
+/*===========================================*/
+/*==================gallrey part goes here==========================*/
+#gallrey{
+    overflow-x: hidden;
+}
+.gal-overlay{
+    height: 100%;
+    background-color: rgba(0, 0, 0,.50);
+    opacity: 0;
+    transition: all linear .3s;
+}
+.gal-overlay i{
+    font-size: 68px;
+    color: #fff;
+    
+}
+.gal-item:hover .gal-overlay{
+    opacity: 1;
+}
+/*==================Navbar part end here==========================*/
+/*=================team intro=========================*/
+#intro3{
+    background: url(../images/team-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    background-attachment: fixed;
+    position: relative;
+}
+#intro3::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0,.50);
+}
+.intro1{
+    position: relative;
+    z-index: 999;
+}
+.intro1-text-main{
+    align-items: center;
+    height: 300px;
+}
+.intro1-text h4{
+    font-size: 20px;
+    font-family: 'Goudy Bookletter 1911', serif;
+    color: #aaa;
+    font-style: italic;
+    padding-bottom: 6px;
+}
+.intro1-text h2{
+    font-size: 42px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+}
+/*==========================================*/
+/*==================team part goes here==========================*/
+#team{
+    padding-top: 75px;
+    
+}
+.team-text h4{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: inherit;
+    padding-top: 16px;
+}
+.team-text p{
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #aaa;
+    padding-top: 7px;
+}
+#team .team-img {
+    position: relative;
+}
+#team .team-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+}
+.team{
+    padding-bottom: 55px;
+    border-bottom: 1px solid #eeeeee;
+}
+.team-icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.team-icon i{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.719);
+    opacity: 0;
+    transition: all linear .3s;
+    margin-right: 10px;
+    color: rgba(0, 0, 0, 0,.80);
+    font-size: 15px;
+
+}
+.team-img:hover .team-icon i{
+    opacity: 1;
+}
+.team-bottom-text{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.bottom-item p{
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #111;
+}
+.bottom-item h5{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #aaa; 
+}
+.bottom-item{
+    transition: all linear .3s;
+}
+.bottom-item:hover{
+    margin-top: -5px;
+}
+.bottom{
+    position: relative;
+}
+.bottom::after{
+    position: absolute;
+    content: '';
+    width: 220px;
+    height: 0;
+    background-color: #00a0dc;
+    bottom: -62px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    transition: all linear .3s;
+}
+.bottom:hover::after{
+    opacity: 1;
+    height: 5px;
+}
+
+
+/*==================team part end here==========================*/
+/*==================contact part goes here==========================*/
+#contact{
+    overflow-x: hidden;
+}
+.map iframe{
+    height: 300px;
+    width: 100%;
+    border-top: 2px solid #00a0dc!important ;
+    border-right: 2px solid #00a0dc!important ;
+    border-bottom: 2px solid #00a0dc!important ;
+    border-left: 2px solid #00a0dc!important ;
+    position: relative;
+}
+.contact-main{
+    padding-top: 73px;
+    padding-bottom: 84px;
+}
+.contact-item i{
+    font-size: 35px;
+    color: #00a0dc;
+}
+.contact-item p{
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #111;
+    padding-top: 10px;
+    padding-bottom: 2px;
+    line-height: 0.8px;
+}
+.contact-item span{
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    color: #111;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.contact-from{
+    padding-bottom: 78px;
+}
+.from-item input{
+    border-radius: 20px;
+    border: 1px solid #eeeeee;
+    margin-bottom: 32px;
+    padding: 10px 0 10px 32px;
+}
+.from-item input::placeholder{
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    color: #111;
+    text-transform: capitalize;
+}
+.from-item button{
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 32px;
+    padding: 10px 0 10px 32px;
+    background-color: #00a0dc;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+}
+/*==================contact part end here==========================*/
+/*==================copyright part goes here==========================*/
+.copyright{
+    background-color: #F5F5F5;
+    padding-top: 75px;
+    padding-bottom: 62px;
+    overflow-x: hidden;
+}
+.footer-menu ul li{
+    display: inline-block;
+}
+.footer-menu{
+    padding-bottom: 5px;
+}
+.footer-menu ul li a{
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: inherit;
+    margin: 0 10px;
+    transition: all linear .3s;
+}
+.footer-menu ul li a:hover{
+    color: #999999;
+}
+.socile-link ul li{
+    display: inline-block;
+}
+.socile-link ul li a{
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #111;
+    text-transform: capitalize;
+    margin: 0 10px;
+    letter-spacing: 1px;
+    transition: all linear .3s;
+    
+}
+.socile-link ul li a:hover{
+    color: #999999;
+}
+.socile-link h4{
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #111;
+    padding-top: 6px;
+}
+/*==================copyright part end here==========================*/
+/*==================Navbar part goes here==========================*/
+
+/*==================Navbar part end here==========================*/
+/*==================Navbar part goes here==========================*/
+
+/*==================Navbar part end here==========================*/
+/*==================Navbar part goes here==========================*/
+
+/*==================Navbar part end here==========================*/
+/*==================Navbar part goes here==========================*/
+
+/*==================Navbar part end here==========================*/
+/*==================Navbar part goes here==========================*/
+
+/*==================Navbar part end here==========================*/
